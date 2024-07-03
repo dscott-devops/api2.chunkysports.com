@@ -2,7 +2,7 @@
 lock "~> 3.19.1"
 
 set :application, "api2.chunkysports.com"
-set :repo_url, "git@github.com:dscott-devops/api.chunkysports.com.git"
+set :repo_url, "git@github.com:dscott-devops/api2.chunkysports.com.git"
 set :deploy_to, "/home/deploy/#{fetch :application}"
 
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", ".bundle", "public/system", "public/uploads"
