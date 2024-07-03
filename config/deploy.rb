@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.19.1"
 
-set :application, "api.chunkysports.com"
+set :application, "api2.chunkysports.com"
 set :repo_url, "git@github.com:dscott-devops/api.chunkysports.com.git"
 set :deploy_to, "/home/deploy/#{fetch :application}"
 
